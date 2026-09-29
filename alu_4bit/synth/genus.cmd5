@@ -1,0 +1,13 @@
+# Cadence Genus(TM) Synthesis Solution, Version 21.14-s082_1, built Jun 23 2022 14:32:08
+
+# Date: Tue Sep 29 12:08:36 2026
+# Host: eevlsidtlab026.ksrct.ac.in (x86_64 w/Linux 4.18.0-553.77.1.el8_10.x86_64) (1core*20cpus*1physical cpu*Intel(R) Core(TM) Ultra 7 265K 30720KB)
+# OS:   Rocky Linux release 8.10 (Green Obsidian)
+
+set LIB_DIR "/home/user26/GPDK/gpdk45nm_E/gsclib045_all_v4.8/gsclib045/timing"
+set_db init_lib_search_path [list "$LIB_DIR"]
+set_db library [list "slow_vdd1v2_basicCells.lib" "slow_vdd1v2_multibitsDFF.lib"]
+read_hdl -netlist ./outputs/alu_4bit_synth.v
+elaborate alu_4bit
+read_sdc ./outputs/alu_4bit_synth.sdc
+gui_show

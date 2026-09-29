@@ -1,0 +1,43 @@
+Cadence Genus(TM) Synthesis Solution.
+Copyright 2022 Cadence Design Systems, Inc. All rights reserved worldwide.
+Cadence and the Cadence logo are registered trademarks and Genus is a trademark
+of Cadence Design Systems, Inc. in the United States and other countries.
+
+[12:06:13.465770] Configured Lic search path (21.01-s002): 5280@14.139.1.126:36162@14.139.1.126
+
+Version: 21.14-s082_1, built Thu Jun 23 11:32:08 PDT 2022
+Options: 
+Date:    Tue Sep 29 12:06:13 2026
+Host:    eevlsidtlab026.ksrct.ac.in (x86_64 w/Linux 4.18.0-553.77.1.el8_10.x86_64) (1core*20cpus*1physical cpu*Intel(R) Core(TM) Ultra 7 265K 30720KB) (31976244KB)
+PID:     419440
+OS:      Rocky Linux release 8.10 (Green Obsidian)
+
+WARNING:Hostname to IPv4 and IPv6 address lookup failed for the host cadence-c2s
+WARNING:Hostname to IPv4 and IPv6 address lookup failed for the host cadence-c2s
+Checkout succeeded: Genus_Synthesis/3FFB3787901511A9760E
+	License file: 5280@14.139.1.126
+	License Server: 5280@14.139.1.126
+
+[12:06:17.451139] Periodic Lic check successful
+[12:06:17.451139] Feature usage summary:
+[12:06:17.451144] Genus_Synthesis
+Checking out license: Genus_Synthesis (4 seconds elapsed).
+
+
+***********************************************************************************************************
+***********************************************************************************************************
+
+
+
+Loading tool scripts...WARNING:Hostname to IPv4 and IPv6 address lookup failed for the host cadence-c2s
+
+Finished loading tool scripts (5 seconds elapsed).
+
+WARNING: This version of the tool is 1558 days old.
+
+Lic Summary:
+[12:07:24.338656] Cdslmd servers: cadence-c2s
+[12:07:24.338665] Feature usage summary:
+[12:07:24.338666] Genus_Synthesis
+
+Normal exit.

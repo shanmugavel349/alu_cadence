@@ -1,0 +1,49 @@
+Cadence Genus(TM) Synthesis Solution.
+Copyright 2022 Cadence Design Systems, Inc. All rights reserved worldwide.
+Cadence and the Cadence logo are registered trademarks and Genus is a trademark
+of Cadence Design Systems, Inc. in the United States and other countries.
+
+[12:03:15.465762] Configured Lic search path (21.01-s002): 5280@14.139.1.126:36162@14.139.1.126
+
+Version: 21.14-s082_1, built Thu Jun 23 11:32:08 PDT 2022
+Options: 
+Date:    Tue Sep 29 12:03:15 2026
+Host:    eevlsidtlab026.ksrct.ac.in (x86_64 w/Linux 4.18.0-553.77.1.el8_10.x86_64) (1core*20cpus*1physical cpu*Intel(R) Core(TM) Ultra 7 265K 30720KB) (31976244KB)
+PID:     417799
+OS:      Rocky Linux release 8.10 (Green Obsidian)
+
+WARNING:Hostname to IPv4 and IPv6 address lookup failed for the host cadence-c2s
+WARNING:Hostname to IPv4 and IPv6 address lookup failed for the host cadence-c2s
+Checkout succeeded: Genus_Synthesis/3FFB3787901511A9760E
+	License file: 5280@14.139.1.126
+	License Server: 5280@14.139.1.126
+
+[12:03:19.422211] Periodic Lic check successful
+[12:03:19.422218] Feature usage summary:
+[12:03:19.422219] Genus_Synthesis
+Checking out license: Genus_Synthesis (4 seconds elapsed).
+
+
+***********************************************************************************************************
+***********************************************************************************************************
+
+
+
+Loading tool scripts...WARNING:Hostname to IPv4 and IPv6 address lookup failed for the host cadence-c2s
+
+Finished loading tool scripts (4 seconds elapsed).
+
+WARNING: This version of the tool is 1558 days old.
+@genus:root: 1> gui
+ambiguous command name "gui": gui_clear_pv gui_clear_sv gui_configure_pi_schematic gui_hide gui_highlight_hier_instances_pv gui_highlight_pv gui_highlight_sv gui_legend gui_open_schematic gui_pv_airline_add gui_pv_airline_delete gui_pv_airline_display gui_pv_airline_raw_add gui_pv_connectivity_airlines gui_pv_display_collection gui_pv_draw_net gui_pv_selection gui_pv_steiner gui_raise gui_redo_pv gui_redraw_pv gui_reset gui_select_highlighted_pv gui_selection gui_show gui_snapshot_pv gui_snapshot_sv gui_sv_get_instance gui_sv_load gui_undo_pv gui_update gui_zoom_fit_pv gui_zoom_fit_sv gui_zoom_pv
+@genus:root: 2> gui_show
+Error   : No designs are available. A design must first be read in and elaborated. [TUI-10] [check_design]
+        : There is no design here.
+        : A design must first be read in with 'read_hdl' command and elaborated with 'elaborate' command.
+
+Lic Summary:
+[12:06:07.213818] Cdslmd servers: cadence-c2s
+[12:06:07.213824] Feature usage summary:
+[12:06:07.213824] Genus_Synthesis
+
+Normal exit.

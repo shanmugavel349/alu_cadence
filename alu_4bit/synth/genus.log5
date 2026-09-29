@@ -1,0 +1,156 @@
+Cadence Genus(TM) Synthesis Solution.
+Copyright 2022 Cadence Design Systems, Inc. All rights reserved worldwide.
+Cadence and the Cadence logo are registered trademarks and Genus is a trademark
+of Cadence Design Systems, Inc. in the United States and other countries.
+
+[12:08:36.465826] Configured Lic search path (21.01-s002): 5280@14.139.1.126:36162@14.139.1.126
+
+Version: 21.14-s082_1, built Thu Jun 23 11:32:08 PDT 2022
+Options: 
+Date:    Tue Sep 29 12:08:36 2026
+Host:    eevlsidtlab026.ksrct.ac.in (x86_64 w/Linux 4.18.0-553.77.1.el8_10.x86_64) (1core*20cpus*1physical cpu*Intel(R) Core(TM) Ultra 7 265K 30720KB) (31976244KB)
+PID:     420698
+OS:      Rocky Linux release 8.10 (Green Obsidian)
+
+WARNING:Hostname to IPv4 and IPv6 address lookup failed for the host cadence-c2s
+WARNING:Hostname to IPv4 and IPv6 address lookup failed for the host cadence-c2s
+Checkout succeeded: Genus_Synthesis/3FFB3787901511A9760E
+	License file: 5280@14.139.1.126
+	License Server: 5280@14.139.1.126
+
+[12:08:42.093427] Periodic Lic check successful
+[12:08:42.093427] Feature usage summary:
+[12:08:42.093432] Genus_Synthesis
+Checking out license: Genus_Synthesis (6 seconds elapsed).
+
+
+***********************************************************************************************************
+***********************************************************************************************************
+
+
+
+Loading tool scripts...WARNING:Hostname to IPv4 and IPv6 address lookup failed for the host cadence-c2s
+
+Finished loading tool scripts (4 seconds elapsed).
+
+WARNING: This version of the tool is 1558 days old.
+@genus:root: 1> # Set library paths
+@genus:root: 2> set LIB_DIR "/home/user26/GPDK/gpdk45nm_E/gsclib045_all_v4.8/gsclib045/timing"
+/home/user26/GPDK/gpdk45nm_E/gsclib045_all_v4.8/gsclib045/timing
+@genus:root: 3> set_db init_lib_search_path [list "$LIB_DIR"]
+  Setting attribute of root '/': 'init_lib_search_path' = /home/user26/GPDK/gpdk45nm_E/gsclib045_all_v4.8/gsclib045/timing
+1 /home/user26/GPDK/gpdk45nm_E/gsclib045_all_v4.8/gsclib045/timing
+@genus:root: 4> set_db library [list "slow_vdd1v2_basicCells.lib" "slow_vdd1v2_multibitsDFF.lib"]
+
+Threads Configured:6
+
+Reading library /home/user26/GPDK/gpdk45nm_E/gsclib045_all_v4.8/gsclib045/timing/slow_vdd1v2_multibitsDFF.lib
+  Message Summary for Library both libraries:
+  *******************************************
+  Missing a function attribute in the output pin definition. [LBR-518]: 49
+  Appending library. [LBR-3]: 1
+  *******************************************
+ 
+Info    : Created nominal operating condition. [LBR-412]
+        : Operating condition '_nominal_' was created for the PVT values (1.000000, 1.080000, 125.000000) in library 'slow_vdd1v2_multibitsDFF.lib'.
+        : The nominal operating condition is represented, either by the nominal PVT values specified in the library source (via nom_process,nom_voltage and nom_temperature respectively), or by the default PVT values (1.0,1.0,1.0).
+Warning : Library cell has no output pins defined. [LBR-9]
+        : Library cell 'ANTENNA' must have an output pin.
+        : Add the missing output pin(s), then reload the library. Else the library cell will be marked as timing model i.e. unusable. Timing_model means that the cell does not have any defined function. If there is no output pin, Genus will mark library cell as unusable i.e. the attribute 'usable' will be marked to 'false' on the libcell. Therefore, the cell is not used for mapping and it will not be picked up from the library for synthesis. If you query the attribute 'unusable_reason' on the libcell; result will be: 'Library cell has no output pins.'Note: The message LBR-9 is only for the logical pins and not for the power_ground pins. Genus will depend upon the output function defined in the pin group (output pin) of the cell, to use it for mapping. The pg_pin will not have any function defined.
+Warning : Library cell has no output pins defined. [LBR-9]
+        : Library cell 'ANTENNA' must have an output pin.
+Warning : Library cell has no output pins defined. [LBR-9]
+        : Library cell 'DECAP10' must have an output pin.
+Warning : Library cell has no output pins defined. [LBR-9]
+        : Library cell 'DECAP10' must have an output pin.
+Warning : Library cell has no output pins defined. [LBR-9]
+        : Library cell 'DECAP2' must have an output pin.
+Warning : Library cell has no output pins defined. [LBR-9]
+        : Library cell 'DECAP2' must have an output pin.
+Warning : Library cell has no output pins defined. [LBR-9]
+        : Library cell 'DECAP3' must have an output pin.
+Warning : Library cell has no output pins defined. [LBR-9]
+        : Library cell 'DECAP3' must have an output pin.
+Warning : Library cell has no output pins defined. [LBR-9]
+        : Library cell 'DECAP4' must have an output pin.
+Warning : Library cell has no output pins defined. [LBR-9]
+        : Library cell 'DECAP4' must have an output pin.
+Warning : Library cell has no output pins defined. [LBR-9]
+        : Library cell 'DECAP5' must have an output pin.
+Warning : Library cell has no output pins defined. [LBR-9]
+        : Library cell 'DECAP5' must have an output pin.
+Warning : Library cell has no output pins defined. [LBR-9]
+        : Library cell 'DECAP6' must have an output pin.
+Warning : Library cell has no output pins defined. [LBR-9]
+        : Library cell 'DECAP6' must have an output pin.
+Warning : Library cell has no output pins defined. [LBR-9]
+        : Library cell 'DECAP7' must have an output pin.
+Warning : Library cell has no output pins defined. [LBR-9]
+        : Library cell 'DECAP7' must have an output pin.
+Warning : Library cell has no output pins defined. [LBR-9]
+        : Library cell 'DECAP8' must have an output pin.
+Warning : Library cell has no output pins defined. [LBR-9]
+        : Library cell 'DECAP8' must have an output pin.
+Warning : Library cell has no output pins defined. [LBR-9]
+        : Library cell 'DECAP9' must have an output pin.
+Warning : Library cell has no output pins defined. [LBR-9]
+        : Library cell 'DECAP9' must have an output pin.
+  Setting attribute of root '/': 'library' = slow_vdd1v2_basicCells.lib slow_vdd1v2_multibitsDFF.lib
+1 {slow_vdd1v2_basicCells.lib slow_vdd1v2_multibitsDFF.lib}
+@genus:root: 5> 
+@genus:root: 5> # Read the synthesized netlist generated by Genus
+@genus:root: 6> read_hdl -netlist ./outputs/alu_4bit_synth.v
+  Library has 324 usable logic and 128 usable sequential lib-cells.
+@genus:root: 7> elaborate alu_4bit
+Info    : Elaborating Design. [ELAB-1]
+        : Elaborating structural top-level block 'alu_4bit' from file './outputs/alu_4bit_synth.v'.
+Info    : Done Elaborating Design. [ELAB-3]
+        : Done elaborating structural top-level block 'alu_4bit'.
+Checking for analog nets...
+Check completed for analog nets.
+Checking for source RTL...
+Check completed for source RTL.
+Running Unified Mux Engine Tricks...
+Completed Unified Mux Engine Tricks
+
+Stage: post_elab
+--------------------------------------------------------
+| Trick             | Accepts | Rejects | Runtime (ms) | 
+--------------------------------------------------------
+| ume_constant_bmux |       0 |       0 |         0.00 | 
+--------------------------------------------------------
+Starting clip mux common data inputs [v1.0] (stage: post_elab, startdef: alu_4bit, recur: true)
+Completed clip mux common data inputs (accepts: 0, rejects: 0, runtime: 0.000s)
+Starting clip the non-user hierarchies [v2.0] (stage: post_elab, startdef: alu_4bit, recur: true)
+Completed clip the non-user hierarchies (accepts: 0, rejects: 0, runtime: 0.000s)
+
+Stage: post_elab
+---------------------------------------------------------
+| Transform          | Accepts | Rejects | Runtime (ms) | 
+---------------------------------------------------------
+| hlo_clip_mux_input |       0 |       0 |         0.00 | 
+| hlo_clip           |       0 |       0 |         0.00 | 
+---------------------------------------------------------
+UM:   flow.cputime  flow.realtime  timing.setup.tns  timing.setup.wns  snapshot
+UM:*                                                                   elaborate
+design:alu_4bit
+@genus:root: 8> read_sdc ./outputs/alu_4bit_synth.sdc
+Statistics for commands executed by read_sdc:
+ "create_clock"             - successful      1 , failed      0 (runtime  0.00)
+ "current_design"           - successful      3 , failed      0 (runtime  0.00)
+ "get_clocks"               - successful     39 , failed      0 (runtime  0.00)
+ "get_ports"                - successful     56 , failed      0 (runtime  0.00)
+ "set_clock_gating_check"   - successful      1 , failed      0 (runtime  0.00)
+ "set_clock_transition"     - successful      1 , failed      0 (runtime  0.00)
+ "set_clock_uncertainty"    - successful      2 , failed      0 (runtime  0.00)
+ "set_false_path"           - successful      1 , failed      0 (runtime  0.00)
+ "set_input_delay"          - successful     24 , failed      0 (runtime  0.00)
+ "set_input_transition"     - successful     12 , failed      0 (runtime  0.00)
+ "set_load"                 - successful      6 , failed      0 (runtime  0.00)
+ "set_max_fanout"           - successful      1 , failed      0 (runtime  0.00)
+ "set_max_transition"       - successful      1 , failed      0 (runtime  0.00)
+ "set_output_delay"         - successful     12 , failed      0 (runtime  0.00)
+ "set_units"                - successful      2 , failed      0 (runtime  0.00)
+ "set_wire_load_mode"       - successful      1 , failed      0 (runtime  0.00)
+read_sdc completed in 00:00:00 (hh:mm:ss)
+@genus:root: 9> gui_show
